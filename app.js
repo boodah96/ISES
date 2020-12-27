@@ -1,17 +1,17 @@
 var name = prompt('Enter your name please');
     alert('welcome  ' + name);
     document.write('<h2>'+'Hello our customer: '+name+'</h2>')
-    var age = prompt('Enter your age please "your age should be more than 18"')
-    while (age<18 ){
+    var userage = prompt('Enter your age please "your age should be more than 18"')
+  function checkage(age,co){
+    while (age<co ){
         
-        if (age<18) { 
-            alert('your age should be more than 18');
-        }
-        var age = prompt('Enter your age please')
-        
-    }
+      
+        var age = prompt('Enter your age please "your age should be more than 18"') }
+        return age;
+}
+checkage (userage,18)
 
-    document.write('<h2>'+'your age : '+age+'</h2>')
+    document.write('<h2>'+'your age : '+userage+'</h2>')
 
 
     var panel = prompt ('How many panel do you want ?')
@@ -22,4 +22,4 @@ var name = prompt('Enter your name please');
 
   }
 
-    
+
